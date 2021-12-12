@@ -148,10 +148,10 @@ main > div:nth-of-type(2) > button{
     display: table-cell;
     vertical-align: middle;
     font-size: 5vw;
-    margin: 12.5vw;
+    margin: 13.5vw;
     margin-top:1%;
     height: 10vw;
-    width: 75vw;
+    width: 74vw;
     color: white;
     background-color: rgb(66, 66, 150);
     border-radius: 1vw;
@@ -227,7 +227,7 @@ footer > div:nth-of-type(2n) > ul{
     margin-top: 5vw;
     margin-bottom: 5vw;
     width: 70%;
-    left:17%;
+    left:19%;
     display: inline-block;
     
 }
@@ -419,15 +419,61 @@ footer > div:nth-of-type(2n) > div:first-of-type {
     main > div:first-of-type > img{
         display: flex;
         width:25%;
-        margin-left: 12.5%;
-        margin-right: 12.5%;
-        margin-bottom: 15%;
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+        padding-bottom: 10%;
+        padding-top: 10%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-top: 0%;
     }
-  
+    main > div:first-of-type > img:nth-of-type(1){
+        padding-left: 0%;
+        margin-left: 12%;
+        border-bottom: 2px solid #b6b4b4;
+        border-right: 2px solid #b6b4b4;
+        padding-top: 5%;
+    }
+    main > div:first-of-type > img:nth-of-type(2){
+        padding-bottom: 8.8%;
+        border-bottom: 2px solid #b6b4b4;
+        margin-right: 12.5%;
+        padding-right: 0%;
+        padding-bottom: 9.1%;
+        padding-top: 5%;
+    }
+    main > div:first-of-type > img:nth-of-type(3){
+        padding-top: 8%;
+        padding-right: 12%;
+        padding-bottom: 9.8%;
+
+    }
     main > div:first-of-type > img:nth-of-type(4){
         width:35%;
-        margin-left: 7.5%;
+        margin-left: 0%;
+        padding-right: 0%;
+        padding-left: 6.5%;
         margin-right: 7.5%;
+        padding-top: 9.9%;
+        padding-bottom: 9.95%;
+        border-left: 2px solid #b6b4b4;
+    }
+    main > div:first-of-type > img:nth-of-type(5){
+        padding-left: 0%;
+        margin-left: 12.5%;
+        border-top: 2px solid #b6b4b4;
+        padding-right: 12%;
+    }
+    main > div:first-of-type > img:nth-of-type(6){
+        border-left: 2px solid #b6b4b4;
+        border-top: 2px solid #b6b4b4;
+        margin-right: 12.5%;
+        padding-right: 0%;
+        padding-top: 9.9%;
+        padding-left: 11.5%;
+        padding-bottom: 5%;
+        margin-bottom: 4.85%;
     }
     
     main > div:nth-of-type(2){
@@ -561,18 +607,90 @@ footer > div:nth-of-type(2n) > div:first-of-type {
     }
 }
 @media(min-width: 960px){
+    /* main > div:first-of-type > img{
+        display: flex;
+        width:25%;
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+        padding-bottom: 10%;
+        padding-top: 10%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        border:unset;
+    } */
+    main > div:first-of-type > img:nth-of-type(1){
+        display: flex;
+        width:25%;
+        margin-left: 4.5%;
+        margin-right: 3.5%;
+        margin-bottom: 0%;
+        padding-left: 0;
+        padding-right: 0;
+        border: unset;
+    }
+    main > div:first-of-type > img:nth-of-type(2){
+        border: unset;
+        display: flex;
+        width:25%;
+        margin-left: 4.5%;
+        margin-right: 3.5%;
+        margin-bottom: 0%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    main > div:first-of-type > img:nth-of-type(3){
+        border: unset;
+        display: flex;
+        width:25%;
+        margin-left: 4.5%;
+        margin-right: 3.5%;
+        margin-bottom: 0%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    main > div:first-of-type > img:nth-of-type(4){
+        padding-right: 0%;
+        padding-left: 0%;
+        padding-top: 9.9%;
+        padding-bottom: 9.95%;
+        border-left: unset;
+        width:25%;
+        margin-left:6%;
+        margin-right: 2%;
+        margin-bottom: 0%;
+    }
+    main > div:first-of-type > img:nth-of-type(5){
+        border: unset;
+        display: flex;
+        width:25%;
+        margin-left: 4.5%;
+        margin-right: 3.5%;
+        margin-bottom: 0%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    main > div:first-of-type > img:nth-of-type(6){
+        border: unset;
+        display: flex;
+        width:25%;
+        margin-left: 4.5%;
+        margin-right: 3.5%;
+        margin-bottom: 0%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 9%;
+    }
     main > div:first-of-type > img{
         display: flex;
         width:25%;
         margin-left: 4.5%;
         margin-right: 3.5%;
         margin-bottom: 9%;
+        border:unset;
     }
-    main > div:first-of-type > img:nth-of-type(4){
-        width:25%;
-        margin-left:6%;
-        margin-right: 2%;
-    }
+   
 }
 @media(min-width: 1200px){
     nav {
@@ -662,4 +780,5 @@ footer > div:nth-of-type(2n) > div:first-of-type {
         width: auto;
         position: unset;
     }
+
 }
